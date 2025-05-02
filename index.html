@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Login</title>
+  <link rel="stylesheet" href="css/masteer.css">
+  <meta name="description" content="Your cold drink is with us">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="home">
+    <div class="contaner">
+      <nav>
+        <a href="#" class="logo">home</a>
+        <a href="#" target="_blank">contact</a>
+        <a href="#" target="_blank">Services</a>
+        <a href="#" target="_blank">profile</a>
+        <a href="#" target="_blank">about</a>
+      </nav>
+      <div class="parent">
+        <h1>login</h1>
+        <form action="test" method="post">
+          <label for="user" name="name">username</label>
+          <input type="text" id="user" name="name" required placeholder="Write a Username">
+
+          <label for="pass">password</label>
+          <input type="password" id="pass" name="pass" placeholder="Write a Complex password" required minlength="8"
+            maxlength="20">
+
+          <label for="ema">email</label>
+          <input type="email" id="ema" name="email" value="mahoud@gimal.com" disabled>
+          <a href="#" target="_blank">forget a password</a>
+          <input class="submit" type="submit" value="login">
+
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

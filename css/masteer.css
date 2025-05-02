@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  height: 100Vh;
+  background: url(https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg?t=st=1746194954~exp=1746198554~hmac=4a06df842e9b414f6cd16dbfb113443cef6c5ba71cd337afbf10153813bbb8e2&w=1380);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contaner nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.contaner nav a {
+  padding: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.contaner nav a:hover {
+  opacity: 0.8;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  color: blue;
+  -webkit-transition: ;
+  -moz-transition: ;
+  -ms-transition: ;
+  -o-transition: ;
+}
+
+.contaner .logo {
+  width: 80%;
+}
+
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  opacity: 0.8;
+  padding: 15px 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.parent form label {
+  margin-left: 50px;
+}
+
+.parent form input {
+  width: 90%;
+  height: 40px;
+  margin: 15px 0;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  border: none;
+  outline: none;
+  margin-left: 45px;
+  caret-color: black;
+}
+
+.parent form .submit {
+  font-size: 25px;
+}
+
+.parent form .submit:hover {
+  color: blue;
+}
+
+form input::placeholder {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+form input:disabled {
+  font-size: 20px;
+  padding-left: 20px;
+  color: black;
+}
+
+a:last-of-type {
+  text-decoration: none;
+  font-size: 20px;
+  color: #3366CC;
+  margin-left: 50px;
+}
+
+a:last-of-type:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .contaner nav a {
+    padding: 10px;
+  }
+
+  .parent {
+    width: 370px;
+  }
+
+  .parent form label {
+    margin-left: 15px;
+  }
+
+  .parent form input {
+    margin-left: 15px;
+  }
+
+  a:last-of-type {
+    font-size: 17px;
+    margin-left: 15px;
+  }
+
+  form input:disabled {
+    font-size: 15px;
+    padding-left: 10px;
+    color: black;
+  }
+
+  form input::placeholder {
+    padding-left: 5px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 992px) {}
